@@ -6,7 +6,7 @@
 const defaultPubkey   = 'pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe';
 const defaultSubkey   = 'sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14';
 const defaultChannel  = uuid();
-const defaultMaxWords = 25;
+const defaultMaxWords = 12;
 const pubkey          = uripart('pubkey')   || defaultPubkey;
 const subkey          = uripart('subkey')   || defaultSubkey;
 const channel         = uripart('channel')  || defaultChannel;
